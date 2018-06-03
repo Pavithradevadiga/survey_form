@@ -1,0 +1,102 @@
+<h1 id="title"> THE SURVEY FORM </h1>
+<!--heading of the form-->
+<p id="discription"><em> Let us a know a little  about yourself</em> </p>
+<!-- form starts here-->
+<div class="container">
+<form action="" id="survey form">
+<!--name of the user-->
+  <div class="ptop">
+    <div>
+<label id="name" >Name:</label>
+      </div>
+    <div>
+<input class="ip" id="name-label" type="text" name="name" placeholder="Your name" required>
+      <div>
+  </div>
+ <!--email-->
+ <div class="ptop">
+   <div>
+<label id="e-mail"> E-mail:</lablel>
+   </div>
+   <div>
+<input id="email" class="ip" type="email"placeholder="Your E-mail" required>
+     </div>
+   </div>
+ <!--age-->    
+ <div class="ptop">     
+   <div>
+<label id="age">Age</label>
+   </div>
+   <div>
+<input width="280px" id="number" type="number" id="number" name="age" placeholder="How young are you?" min=1 max=150 required>
+   </div>
+      </div>
+<!--drop down-->
+      <div class="ptop">
+        <div>
+<label id="current-position" >Are you a noob to front-end-develpoment?</label>
+        </div>
+        <div>
+<select name="dropdown" id="dropdown">
+  <option value="yes">No,am a pro</option>
+  <option value="no">Yes,you caught me</option>
+  <option value="not sure">Am an average</option></select>
+        </div>
+      </div>
+      <!--radiobuttons-->  
+      <div class="ptop">
+  <div><label for="gender">Gender:</label>
+        </div>
+      <div>
+  <div><label for="female">Female</label> 
+  <input type="radio" value="Female" 
+         name="radio-buttons"   id="gender"></div>
+        <div>
+<label for male>Male</label>
+  <input type="radio" value="male" 
+         name="radio-buttons" id="gender"></div>
+      </div>
+      </div>
+  <!--Checkbox-->
+  <div class="ptop">
+    <div><label>Which of these are/is your favorite(you can select more than one)?</label></div>
+    <div>
+      <input type="checkbox" name="cb" value="CSS">
+<label>CSS</label>
+    </div>
+    <div>
+<input type="checkbox" name="cb" value="html">
+<label>HTML</label>
+    </div>
+    <div>
+<input type="checkbox" name="cb" value="bootstrap">
+<label>BOOTSTRAP</label>
+    </div>
+    <div>
+<input type="checkbox" name="cb" value="j-query">
+<label>J-QUERY</label>
+    </div>
+    <div>
+<input type="checkbox" name="cb" value="javascript">
+<label>JAVASCRIPT</label>
+    </div>
+    <div>
+<input type="checkbox" name="cb" value="none">
+<label>NONE(oops)</label>
+      </div>
+  </div>
+<!-- Additional comments-->
+  <div class="ptop">
+<div>
+  <label>Your experince so far in front-end development</label>
+  </div>
+<textarea placeholder="Write a few words about your experience"></textarea>
+  </div>
+  <div class="ptop">
+    <button class="s" type="submit" id="submit"><strong>Submit</strong></button>
+  </div>
+</form>
+    <div class="footer">
+      <p color="red"><strong>by PAVITHRA.B 3/6/2018</strong></p>
+    </div>
+</div>
